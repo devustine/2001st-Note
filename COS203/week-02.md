@@ -9,6 +9,7 @@ But what if we want to talk about properties of objects or relationships between
 
 ### Predicate
 A predicate is like a function that describes a property of an object.
+
 **Format:** P(x) where:
 - P = the predicate (the property)
 - x = the variable (the object)
@@ -31,6 +32,7 @@ Example 3:
 
 ### Predicates with More Than One Variable
 Some statements involve relationships between objects:
+
 **Format:** R(x, y) where both x and y are variables
 
 #### Examples:
