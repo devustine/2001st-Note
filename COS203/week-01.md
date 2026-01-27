@@ -217,7 +217,7 @@ A proposition is unsatisfiable if there's NO way to make it true (it's always fa
 **Example: (P AND NOT P) is unsatisfiable because:**
 - P can't be both true and false at the same time!
 
-
+**NB:** A tautology is a statement that is always true, no matter the truth value of its variables.
 
 
 
@@ -226,6 +226,7 @@ A proposition is unsatisfiable if there's NO way to make it true (it's always fa
 ----
 
 **Disclaimer:** These notes are intended for learning and revision purposes only and may simplify certain concepts. They must not be used for exam malpractice or any form of academic dishonesty. Use of these notes is entirely the responsibility of the student, and official course materials should be consulted for authoritative guidance.
+
 
 
 
