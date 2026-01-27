@@ -78,3 +78,37 @@ Examples:
 - "Some students are smart" → ∃x (Student(x) ∧ Smart(x))
 - "There is a prime number" → ∃x (Prime(x))
 - "At least one person passed" → ∃x (Passed(x))
+
+### COMBINING QUANTIFIERS
+You can use multiple quantifiers in one statement.
+
+Example 1: ∀x ∃y (x < y)
+- Domain: integers
+- "For every integer x, there exists an integer y such that x < y"
+- Meaning: Every integer has a larger integer (TRUE)
+
+Example 2: ∃x ∀y (x ≤ y)
+- Domain: positive integers
+- "There exists an integer x such that for all integers y, x ≤ y"
+- Meaning: There's an integer smaller than or equal to all others (TRUE, x = 1)
+
+NB: Order matters! ∀x ∃y is different from ∃y ∀x
+
+### NEGATION OF QUANTIFIERS
+
+**Rules:**
+- ¬(∀x P(x)) ≡ ∃x ¬P(x). "Not all x satisfy P" = "There exists an x that doesn't satisfy P"
+- ¬(∃x P(x)) ≡ ∀x ¬P(x). "There doesn't exist an x that satisfies P" = "All x don't satisfy P"
+
+Example 1:
+- Statement: "All students passed" = ∀x Passed(x). Negation: "Not all students passed" = ∃x ¬Passed(x) which means "At least one student failed".
+- Statement: "Some dogs are brown" = ∃x Brown(x). Negation: "No dogs are brown" = ∀x ¬Brown(x) which means "All dogs are not brown"
+
+### NESTED QUANTIFIERS
+When you have multiple quantifiers, read from left to right.
+
+Example: ∀x ∃y (x + y = 0)
+- Domain: integers
+- Read: "For every integer x, there exists an integer y such that x + y = 0"
+- Meaning: Every integer has an additive inverse (TRUE)
+
