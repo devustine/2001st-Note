@@ -153,8 +153,19 @@ A compound proposition is formed by combining two or more simple propositions us
 - The car is red **OR** blue, **AND** it is fast
 
 
+### What are De Morgan's Laws?
+De Morgan's Laws are two rules that show you how to correctly distribute the NOT operator over AND and OR statements. They're named after Augustus De Morgan, a mathematician who formalized these rules.
 
+### The Two Laws
 
+#### Law 1: NOT (P AND Q)
+**Formula:** ¬(P ∧ Q) ≡ ¬P ∨ ¬Q
+**In plain English:** "NOT (P AND Q)" is the same as "(NOT P) OR (NOT Q)"
+**What it means:** When you say something is NOT (both A and B), you're saying either A is false OR B is false (or both are false).
 
+#### Law 2: NOT (P OR Q)
+**Formula:** ¬(P ∨ Q) ≡ ¬P ∧ ¬Q
+**In plain English:** "NOT (P OR Q)" is the same as "(NOT P) AND (NOT Q)"
+**What it means:** When you say something is NOT (A or B), you're saying both A is false AND B is false.
 
 
