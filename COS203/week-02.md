@@ -1,90 +1,61 @@
 ## Predicate Logic
 
-### What is Predicate Logic?
-Think of predicate logic as a more powerful version of regular logic. In regular logic, we can only say things like "It is raining" (true or false). But in predicate logic, we can talk about properties of things and relationships between things.
+Predicate Logic is an extension of Propositional Logic. Propositional Logic deals with whole statements like:
+- "It is raining" → True or False
+- "2 + 2 = 4" → True
+- "Lagos is in Nigeria" → True
 
-A **predicate** is basically a statement that contains variables. For example:
-- P(x) = "x is a student"
-- Q(x) = "x is tall"
-- R(x, y) = "x is taller than y"
+But what if we want to talk about properties of objects or relationships between objects? That's where Predicate Logic comes in.
 
-The variable (x, y, etc.) is like a blank space that you can fill in with actual values.
+### Predicate
+A predicate is like a function that describes a property of an object.
+**Format:** P(x) where:
+- P = the predicate (the property)
+- x = the variable (the object)
 
-### What are Quantifiers?
-Quantifiers tell us how many things we're talking about. There are two main types:
+#### Examples:
+Example 1:
+- P(x) = "x is a prime number"
+- If x = 5, then P(5) is True (5 is prime)
+- If x = 4, then P(4) is False (4 is not prime)
 
-#### 1. Universal Quantifier (∀) - "For All"
-The symbol ∀ means "for all" or "for every." It's used when a statement is true for ALL elements in a group.
+Example 2:
+- S(x) = "x is a student"
+- If x = John, then S(John) could be True
+- If x = a dog, then S(dog) is False
 
-**How to read it:**
-- ∀x P(x) reads as: "For all x, P(x) is true"
-- Or: "Every x has property P"
+Example 3:
+- E(x) = "x is even"
+- If x = 6, then E(6) is True
+- If x = 7, then E(7) is False
 
-**Real-life examples:**
-Example 1: "All students must pay school fees"
-- Let P(x) = "x must pay school fees"
-- We write: ∀x P(x)
-- This means: Every single student must pay fees
+### Predicates with More Than One Variable
+Some statements involve relationships between objects:
+**Format:** R(x, y) where both x and y are variables
 
-Example 2: "Every human being needs water to survive"
-- Let Q(x) = "x needs water to survive"
-- We write: ∀x Q(x)
-- Domain: All human beings
+#### Examples:
+Example 1:
+- L(x, y) = "x loves y"
+- If x = Alice and y = Bob, then L(Alice, Bob) could be True or False depending on reality
 
-Example 3: In mathematics - "All even numbers are divisible by 2"
-- Let R(x) = "x is divisible by 2"
-- We write: ∀x R(x)
-- Domain: All even numbers
+Example 2:
+- G(x, y) = "x is greater than y"
+- G(5, 3) is True
+- G(2, 7) is False
 
-**Important note:** If even ONE element doesn't satisfy the condition, the whole statement becomes FALSE.
+Example 3:
+- F(x, y) = "x is the father of y"
+- F(John, Mary) could be True
 
-#### 2. Existential Quantifier (∃) - "There Exists"
-The symbol ∃ means "there exists" or "there is at least one." It's used when a statement is true for AT LEAST ONE element in a group.
+### Quantifiers
+In Predicate Logic, we need a way to talk about all objects or some objects. That's done with quantifiers. There are two main quantifiers:
 
-**How to read it:**
-- ∃x P(x) reads as: "There exists an x such that P(x) is true"
-- Or: "There is at least one x that has property P"
-- Or: "For some x, P(x) is true"
-
-**Real-life examples:**
-Example 1: "Some students have scholarships"
-- Let P(x) = "x has a scholarship"
-- We write: ∃x P(x)
-- This means: At least one student has a scholarship
-
-Example 2: "There is a student who scored 100% in the exam"
-- Let Q(x) = "x scored 100% in the exam"
-- We write: ∃x Q(x)
-- This means: At least one student achieved this
-
-Example 3: In mathematics - "There exists a prime number greater than 100"
-- Let R(x) = "x is a prime number greater than 100"
-- We write: ∃x R(x)
-- This is TRUE (because 101, 103, etc. exist)
-
-**Important note:** If at least ONE element satisfies the condition, the whole statement becomes TRUE.
-
-### Key Differences
-
-| Feature | Universal (∀) | Existential (∃) |
-|---------|---------------|----------------|
-| Meaning | ALL elements must satisfy | AT LEAST ONE element must satisfy |
-| Keywords | "Every," "All," "Each" | "Some," "There exists," "At least one" |
-| Truth Condition | If one fails, statement is FALSE | If one succeeds, statement is TRUE |
+#### Universal Quantifier (∀)
 
 
-### Domain
-The domain (also called "universe of discourse") is the complete set of things you're allowed to talk about. When you use quantifiers like ∀ (for all) or ∃ (there exists), you're ONLY talking about things inside your domain. Change the domain, and the truth value of your statement can completely flip.
 
-#### Example 1: "All students are female"
-- Your domain contains: {Mary, Jane, Sarah, Elizabeth, ...}
-- All of these students are female
-- So "∀x Female(x)" is TRUE because EVERY element in your domain is female
 
-#### Example 2: "Students in a mixed school"
-- Your domain contains: {Mary, John, Sarah, Michael, Jane, David, ...}
-- Some students are male (John, Michael, David)
-- So "∀x Female(x)" is FALSE because NOT every element in your domain is female
+
 
 
 
