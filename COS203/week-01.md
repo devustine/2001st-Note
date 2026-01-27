@@ -160,12 +160,17 @@ De Morgan's Laws are two rules that show you how to correctly distribute the NOT
 
 #### Law 1: NOT (P AND Q)
 **Formula:** ¬(P ∧ Q) ≡ ¬P ∨ ¬Q
+
 **In plain English:** "NOT (P AND Q)" is the same as "(NOT P) OR (NOT Q)"
+
 **What it means:** When you say something is NOT (both A and B), you're saying either A is false OR B is false (or both are false).
 
 #### Law 2: NOT (P OR Q)
 **Formula:** ¬(P ∨ Q) ≡ ¬P ∧ ¬Q
+
 **In plain English:** "NOT (P OR Q)" is the same as "(NOT P) AND (NOT Q)"
+
 **What it means:** When you say something is NOT (A or B), you're saying both A is false AND B is false.
+
 
 
