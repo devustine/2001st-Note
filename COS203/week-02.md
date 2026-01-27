@@ -64,5 +64,17 @@ Quantifiers are symbols that tell us "how many" objects in the domain satisfy a 
 
 **Important:** ∃x P(x) is TRUE if at least one element satisfies P(x). It doesn't have to be all of them, just one or more.
 
+### Translation from English
+**Universal indicators:** all, every, each, any, none (none = "for all... not")
 
+Examples:
+- "All students study" → ∀x (Student(x) → Studies(x))
+- "Every number is positive" → ∀x (Positive(x))
+- "No cats are dogs" → ∀x (Cat(x) → ¬Dog(x))
 
+**Existential indicators:** some, there exists, at least one, there is
+
+Examples:
+- "Some students are smart" → ∃x (Student(x) ∧ Smart(x))
+- "There is a prime number" → ∃x (Prime(x))
+- "At least one person passed" → ∃x (Passed(x))
