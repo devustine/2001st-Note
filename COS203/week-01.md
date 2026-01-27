@@ -172,7 +172,8 @@ De Morgan's Laws are two rules that show you how to correctly distribute the NOT
 
 **What it means:** When you say something is NOT (A or B), you're saying both A is false AND B is false.
 
+--
 
-
+**Disclaimer:** These notes are intended for learning and revision purposes only and may simplify certain concepts. They must not be used for exam malpractice or any form of academic dishonesty. Use of these notes is entirely the responsibility of the student, and official course materials should be consulted for authoritative guidance.
 
 
