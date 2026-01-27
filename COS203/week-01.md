@@ -172,8 +172,60 @@ De Morgan's Laws are two rules that show you how to correctly distribute the NOT
 
 **What it means:** When you say something is NOT (A or B), you're saying both A is false AND B is false.
 
---
+### Truth Assignments and Environments
+This is just a fancy way of saying: "Give each variable a value, then calculate the result."
+
+**Example:** If P = TRUE, Q = TRUE, R = FALSE What is: (NOT(P AND Q)) OR (R XOR NOT(Q))?
+
+Let's solve it step by step:
+1. P AND Q = TRUE AND TRUE = TRUE
+2. NOT(P AND Q) = NOT(TRUE) = FALSE
+3. NOT(Q) = NOT(TRUE) = FALSE
+4. R XOR NOT(Q) = FALSE XOR FALSE = FALSE
+5. FALSE OR FALSE = FALSE
+
+### Logical Equivalence
+Two formulas are equivalent if they always give the same result, no matter what values you plug in.
+
+### Important Equivalences to Remember
+
+#### 1. De Morgan's Laws (Super important!)
+- NOT(P AND Q) = (NOT P) OR (NOT Q)
+- NOT(P OR Q) = (NOT P) AND (NOT Q)
+
+#### 2. Double Negation
+- NOT(NOT P) = P
+
+#### 3. Material Implication
+- (P → Q) = (NOT P) OR Q
+
+#### 4. Distributive Laws
+- P AND (Q OR R) = (P AND Q) OR (P AND R)
+- P OR (Q AND R) = (P OR Q) AND (P OR R)
+
+#### 5. Absorption Laws
+- P OR (P AND Q) = P
+- P AND (P OR Q) = P
+
+### Satisfiability
+A proposition is satisfiable if there's at least ONE way to make it true.
+
+**Example: (P OR Q) is satisfiable because:**
+- When P = TRUE, Q = FALSE → Result is TRUE ✓
+
+A proposition is unsatisfiable if there's NO way to make it true (it's always false).
+**Example: (P AND NOT P) is unsatisfiable because:**
+- P can't be both true and false at the same time!
+
+
+
+
+
+
+
+----
 
 **Disclaimer:** These notes are intended for learning and revision purposes only and may simplify certain concepts. They must not be used for exam malpractice or any form of academic dishonesty. Use of these notes is entirely the responsibility of the student, and official course materials should be consulted for authoritative guidance.
+
 
 
