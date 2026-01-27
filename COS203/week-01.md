@@ -154,7 +154,7 @@ A compound proposition is formed by combining two or more simple propositions us
 
 
 ### What are De Morgan's Laws?
-De Morgan's Laws are two rules that show you how to correctly distribute the NOT operator over AND and OR statements. They're named after Augustus De Morgan, a mathematician who formalized these rules.
+De Morgan's Laws are two rules that show you how to correctly distribute the NOT operator over AND and OR statements. They're named after Augustus De Morgan, a mathematician who formalized these rules. De Morgan's Laws are specifically designed to help you negate (apply NOT to) compound statements that contain AND or OR.
 
 ### The Two Laws
 
@@ -171,6 +171,7 @@ De Morgan's Laws are two rules that show you how to correctly distribute the NOT
 **In plain English:** "NOT (P OR Q)" is the same as "(NOT P) AND (NOT Q)"
 
 **What it means:** When you say something is NOT (A or B), you're saying both A is false AND B is false.
+
 
 
 
