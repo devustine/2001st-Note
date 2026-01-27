@@ -112,3 +112,6 @@ Example: ∀x ∃y (x + y = 0)
 - Read: "For every integer x, there exists an integer y such that x + y = 0"
 - Meaning: Every integer has an additive inverse (TRUE)
 
+----
+
+**Disclaimer:** These notes are intended for learning and revision purposes only and may simplify certain concepts. They must not be used for exam malpractice or any form of academic dishonesty. Use of these notes is entirely the responsibility of the student, and official course materials should be consulted for authoritative guidance.
