@@ -23,3 +23,23 @@ These two symbols (0 and 1) are called binary digits or bits (short for binary d
 | Sound       | 🎵 Music    | Streams of 0s and 1s |
 | Video       | 🎬 Movie    | Billions of 0s and 1s |
 
+This entire conversion process is called **Information Representation**
+
+### Why Computers Use Binary (0 and 1)
+This comes from the field of Digital Logic and Electronics. Inside Every Computer, electronic circuits use transistors (tiny switches) and this these transistors have only two states "OFF" and "ON".
+
+| State | Meaning                  | Voltage Level        | Binary Representation |
+|-------|--------------------------|----------------------|-----------------------|
+| OFF   | No electricity flowing   | 0 volts (LOW)        | 0                     |
+| ON    | Electricity flowing      | +5 volts (HIGH)      | 1                     |
+
+
+
+
+
+
+
+
+
+
+
